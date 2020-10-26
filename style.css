@@ -1,0 +1,51 @@
+/* style.css */
+h1, h2, h3, body {
+  font-family: 'Kosugi Maru', sans-serif;
+  color: #ffed00;
+  font-size: 16px;
+}
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
+.whatwedo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+.concierge {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.button-yellow {
+  background-color: #ffed00;
+  color: #555555;
+  padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.button-yellow:hover {
+  background-color: #f5a92f;
+  color: #555555;
+}
+
+.footer {
+  background: #91918a;
+  text-align: left;
+  padding: 24px 0;
+}
+
+.footer p {
+  color: white;
+}
